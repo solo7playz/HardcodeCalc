@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тригонометрия (углы в градусах)"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/trigInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите угол в градусах"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnTan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tan(угол)"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#0f3460" />
+
+    <Button
+        android:id="@+id/btnCot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ctg(угол)"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0f3460" />
+
+    <TextView
+        android:id="@+id/trigResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат: "
+        android:textSize="24sp"
+        android:textColor="#00ff88"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sin(угол)"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#16213e" />
+
+    <Button
+        android:id="@+id/btnCos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cos(угол)"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#16213e" />
+
+    <TextView
+        android:id="@+id/trigResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат: "
+        android:textSize="24sp"
+        android:textColor="#00ff88"
+        android:padding="12dp" />
+
+</LinearLayout>
